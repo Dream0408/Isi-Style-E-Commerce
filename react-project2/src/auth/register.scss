@@ -1,0 +1,80 @@
+.form__regis {
+  border: 0.5px solid lightgrey;
+  border-radius: 5px;
+  padding: 70px;
+  max-width: 400px;
+  width: 100%;
+  margin: 2rem auto;
+  position: relative;
+  top: 50px;
+}
+
+.Icon__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Icon__logo i {
+  background: rgb(25, 25, 112);
+  border-radius: 50%;
+  color: rgb(100, 159, 207);
+  font-size: 30px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+
+.form__regis h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.input__regis,
+.input__button {
+  height: 35px;
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  margin-bottom: 1rem;
+
+  &:focus {
+    border: 1px solid rgb(8, 208, 255);
+  }
+}
+
+.input__button {
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  color: gray;
+
+  &:focus {
+    border: none;
+  }
+}
+
+.form__regis p {
+  font-size: 15px;
+  color: red;
+}
+
+.link__regis {
+  margin-top: 20px;
+  column-gap: 0.8rem;
+  display: flex;
+}
+
+.register__now {
+  font-weight: bold;
+  color:	rgb(0,0,205);
+}

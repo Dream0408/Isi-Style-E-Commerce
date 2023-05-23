@@ -1,0 +1,100 @@
+.inventory {
+  font-family: "Poppins", sans-serif;
+}
+
+.inventory h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.create__product {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 4rem;
+}
+
+.form__create {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.form__create input {
+  font-family: "Poppins", sans-serif;
+}
+
+.form__create select {
+  font-family: "Poppins", sans-serif;
+}
+
+.form__create span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input__form {
+  font-size: 12px;
+  padding: 4px;
+  min-height: 30px;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid rgb(182, 182, 182);
+  margin: 0.3rem 0;
+  width: 380px;
+  margin-bottom: 0.7rem;
+
+  // &:focus {
+  // }
+}
+
+.image__preview {
+  margin: 2rem 0 2rem 2rem;
+  padding: 2rem;
+  border: 1px solid rgb(183, 183, 183);
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 17px;
+  border-radius: 3px;
+  color: rgb(78, 78, 78);
+  img {
+    max-width: 100%;
+  }
+}
+
+.image__preview p {
+  font-size: 16px;
+  color: gray;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: black;
+  border: none;
+  margin-top: 10px;
+  color: white;
+  padding: 6px 10px;
+  font-size: 15px;
+  cursor: pointer;
+
+  .fa {
+    margin-right: 6px;
+  }
+}
+
+.btn:hover {
+  color: whitesmoke;
+  background-color: rgb(70, 72, 75);
+}
+
+.button__submit {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}

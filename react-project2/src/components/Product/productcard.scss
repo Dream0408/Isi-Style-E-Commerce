@@ -1,0 +1,38 @@
+.product__item {
+       cursor: pointer;
+       font-family: 'Poppins', sans-serif;
+       margin-top: 25px;
+       height: 80%;
+}
+
+
+.product__info{
+       position: relative;
+       right: 6px;
+       width: 180px;
+       margin-top: 5px;
+ }
+
+.product__info h3 {
+      font-size: 15px;
+      color: var(--primary-color);
+      margin-top: 10px;
+}
+
+.product__info span {
+       font-size: 0.9rem;
+}
+
+.product__card-bottom .price{
+       color: var(--primary-color);
+       font-size: 17px;
+       font-weight: 500;
+}
+
+.product__card-bottom span i {
+       font-size: 18px;
+       padding: 5px;
+       color: whitesmoke;
+       border-radius: 50%;
+       background-color: var(--primary-color);
+}

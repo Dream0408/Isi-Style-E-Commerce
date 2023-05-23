@@ -1,0 +1,132 @@
+.sidebar {
+  width: 190px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  border: 0.5px solid lightgrey;
+
+  a:hover {
+    color: rgb(77, 86, 86 );
+  }
+}
+
+hr {
+  height: 0;
+  border: 0.5px solid lightgrey;
+}
+
+
+.sidebar__top {
+  cursor: pointer;
+  margin-top: 7px;
+  margin-left: 15px;
+  width: 100%;
+  // height: 60px;
+  line-height: 60px;
+}
+
+.sidebar__top h3 {
+  display: flex;
+  font-size: 27px;
+  font-weight: 600;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  color: rgb(100, 159, 207);
+}
+
+.sidebar__top h3 span {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(25, 25, 112);
+  border-radius: 50%;
+}
+
+.sidebar__top h3 i {
+  font-weight: bolder;
+  padding: 5px;
+  font-size: 23px;
+}
+
+.sidebar__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: calc(100% - 5%);
+  margin-top: 10px;
+}
+
+.menu {
+  height: 80%;
+}
+
+.sidebar__bottom {
+  height: 15%;
+}
+
+.sidebar__bottom-setting {
+  margin-bottom: 20px;
+}
+
+.nav__link,
+.sidebar__bottom span,
+.sidebar__bottom-setting span {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar__bottom span,
+.sidebar__bottom-setting span {
+  color: rgb(105, 105, 105);
+  font-size: 18px;
+  font-weight: bold;
+
+  &:hover {
+    color: rgb(66, 66, 66);
+    background: rgb(224, 224, 224);
+    padding: 6px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+}
+
+.sidebar__bottom i,
+.sidebar__bottom-setting i {
+  padding-left: 12px;
+  font-weight: bold;
+  color: rgb(12, 63, 105);
+}
+
+.nav__list {
+  padding-left: 12px;
+  display: flex;
+
+  row-gap: 0.6rem;
+  font-size: 17px;
+  font-weight: bolder;
+  flex-direction: column;
+  color: #888;
+}
+
+.nav__list span {
+  font-weight: bold;
+  margin-right: 4px;
+  color: rgb(12, 63, 105);
+  font-size: 22px;
+}
+
+.nav__active {
+  color: rgb(97, 97, 97);
+  background: #d0cce9;
+  padding: 5px;
+  margin-right: 6px;
+  border-radius: 5px;
+}

@@ -1,0 +1,122 @@
+.filter__widget {
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.filter__widget select {
+  font-size: 14px;
+  padding: 4px 8px;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.filter__widget select:focus {
+  outline: none !important;
+}
+
+.filter__widget select option {
+  font-size: 13px;
+}
+
+.Col__button {
+  display: flex;
+  justify-content: end;
+}
+
+.Button__addproduct {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Button__name {
+  font-size: 12px;
+  padding: 9px;
+  background-color: var(--primary-color);
+  color: whitesmoke;
+  cursor: pointer;
+  border: none;
+}
+
+.products__container {
+  margin: 2rem 2rem;
+}
+
+.products {
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  column-gap: 28px;
+  row-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  margin-top: 25px;
+  // margin-bottom: 10px;
+  // height: 80%;
+}
+
+.products .product__img {
+  width: 100%;
+  height: auto;
+}
+
+.product__info {
+  position: fixed;
+  right: 6px;
+  width: 180px;
+  margin-top: 5px;
+}
+
+.product__stock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.product__info h3 {
+  font-size: 15px;
+  color: var(--primary-color);
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 43px;
+  // background-color: #aa1212;
+}
+
+.product__info span {
+  font-size: 0.9rem;
+}
+
+.product__name {
+  font-weight: 600;
+  height: 33px;
+}
+
+.product__card-bottom {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.product__card-bottom .price {
+  color: var(--primary-color);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.product__card-bottom span i {
+  font-size: 18px;
+  padding: 5px;
+  color: whitesmoke;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.button__addtocart {
+  position: relative;
+  right: 13px;
+  cursor: pointer;
+}
